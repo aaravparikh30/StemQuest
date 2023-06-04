@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Research Opportunities</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #F9F9F9;
+      color: #333333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      height: 120px;
+      margin-bottom: 20px;
+      background-color: #FFFFFF;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+      padding: 0 20px;
+    }
+
+    .header-logo {
+      max-width: 500px;
+      height: auto;
+    }
+
+    .section {
+      margin-bottom: 40px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      background-color: #FFFFFF;
+    }
+
+    .about-section {
+      margin-bottom: 20px;
+    }
+
+    .about-section h2 {
+      margin-top: 0;
+      color: #333333;
+    }
+
+    .about-section p {
+      margin-bottom: 10px;
+      color: #666666;
+    }
+
+    .why-section {
+      margin-bottom: 20px;
+    }
+
+    .why-section h2 {
+      margin-top: 0;
+      color: #333333;
+    }
+
+    .why-section p {
+      margin-bottom: 10px;
+      color: #666666;
+    }
+
+    .opportunity-section {
+      margin-bottom: 20px;
+    }
+
+    .opportunity {
+      margin-bottom: 20px;
+      border-radius: 5px;
+      padding: 20px;
+      background-color: #ECEFF3;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .opportunity-link {
+      color: #4285F4;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .opportunity-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333333;
+    }
+
+    .opportunity-description {
+      margin-bottom: 10px;
+      color: #666666;
+    }
+
+    .opportunity-email {
+      color: #666666;
+    }
+
+    .contextual-info {
+      background-color: #ECEFF3;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .contextual-info h2 {
+      margin-top: 0;
+      color: #333333;
+    }
+
+    .contextual-info p {
+      margin-bottom: 10px;
+      color: #666666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="section opportunity-section">
+      <center><img class="header-logo" src="https://raw.githubusercontent.com/aaravparikh30/StemQuest/main/logo01.jpg" alt="STEMQuest"></center>
+    </div>
+
+    <div class="section about-section">
+      <h2>About</h2>
+      <p>    Welcome to our Research Opportunities website! We are dedicated to providing a platform where you can explore various research opportunities available at the University of Utah. Created by a student who struggled finding research opportunities in high school, STEMQuest aims to provide access to professors who may be offering research opportunities in their lab for the summer. For more information, see the Available Opportunities tab below. </p>
+</div>
+
+<div class="section why-section">
+  <h2>Why This Website?</h2>
+  <p>At the StemQuest, we believe in the power of research to drive innovation and create a positive impact on society. This website aims to streamline the process of finding and applying for research opportunities, making it easier for high school students and researchers to discover projects aligned with their interests and expertise.</p>
+  <p>By centralizing the information about research opportunities, we aim to foster collaboration, encourage interdisciplinary research, and create a vibrant research community for high schoolers getting interested in getting involved.</p>
+</div>
+
+<div class="section opportunity-section">
+  <img class="header-logo" src="https://raw.githubusercontent.com/aaravparikh30/StemQuest/main/university_logo.png" alt="University of Utah Logo" width="30" height="30">
+  <h2 style="line-height: 20%;">Available Opportunities</h2>
+
+  <div class="opportunity" onclick="showOpportunityPopup(2, 'Another Opportunity', 'This is another research opportunity with a different description.', 'research@example.com')">
+    <h3 class="opportunity-title"><center>3D Printing of Soft Robots, Biomedical Devices and Electronics</center></h3>
+    <p class="opportunity-description">A wide range of potential projects are available on 3D printing: please check out: www.yonglinkong.com</p>
+    <p class="opportunity-description">Email: yong.kong@utah.edu</p>
+  </div>
+
+  <div class="opportunity" onclick="showOpportunityPopup(2, 'Another Opportunity', 'This is another research opportunity with a different description.', 'research@example.com')">
+    <h3 class="opportunity-title"><center>Autonomously closing vents for bicycle helmets based on hydrogel-functionalized meshes</center></h3>
+    <p class="opportunity-description">Opportunity to work on a proof-of-principle bicycle helmet with autonomously closing vents (suitable for engineers, material scientists, chemists).
+
+      Smart hydrogels are materials that able to change their volume depending on environmental parameters like, e.g., temperature and light. Especially temperature and light sensitivity of our specifically designed hydrogels can be exploited to let them perform autonomous sensing and actuating tasks. We plan to use this function for the autonomous closing and opening of vents, e.g., in bicycle helmets or tent screens. The mesh will be coated with smart hydrogels we develop in our lab. In the dry state the hydrogel has its smallest volume and, as a result, the vents are open. In wet conditions, i.e. rain, the hydrogel fibers swell and the vents are autonomously being closed within minutes. When the rain stops, the vents will open again thanks to the mesh's environmental responsivity.</p>
+    <p class="opportunity-description">Email: simon.binder@utah.edu</p>
+  </div>
+
+  <!-- Add more opportunities here -->
+</div>
+
+<div class="section contextual-info">
+  <h2>Stay Informed</h2>
+  <p>For more information or to apply, please visit the respective opportunity links. If you have any questions, feel free to reach out to us.</p>
+  <p>Stay updated with the latest research opportunities by visiting our website regularly.</p>
+</div>
+</div>
+</body>
+</html>
